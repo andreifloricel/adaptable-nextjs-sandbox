@@ -9,7 +9,7 @@ export const gridOptions: GridOptions<WebFramework> = {
     sortable: true,
     editable: true,
     filter: true,
-    floatingFilter: true
+    floatingFilter: true,
   },
   columnDefs: columnDefs,
   rowData: rowData,
@@ -23,12 +23,12 @@ export const gridOptions: GridOptions<WebFramework> = {
       {
         key: "Center Panel",
         statusPanel: "AdaptableStatusPanel",
-        align: "center"
-      }
-    ]
+        align: "center",
+      },
+    ],
   },
   processPivotResultColDef: (colDef: ColDef) => {
     colDef.filter = "agNumberColumnFilter";
     colDef.floatingFilter = true;
-  }
+  },
 };
