@@ -1,11 +1,10 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import ReactDOM from "react-dom";
 import App from "./_app";
 
 // const rootElement = document.getElementById("root");
 // ReactDOM.render(<App />, rootElement);
 
-// import React, { useEffect } from "react";
 
 function Appp() {
   useEffect(() => {
