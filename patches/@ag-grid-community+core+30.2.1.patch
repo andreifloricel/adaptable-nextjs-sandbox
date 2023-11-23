@@ -1,0 +1,13 @@
+diff --git a/node_modules/@ag-grid-community/core/package.json b/node_modules/@ag-grid-community/core/package.json
+index 864a559..b565869 100644
+--- a/node_modules/@ag-grid-community/core/package.json
++++ b/node_modules/@ag-grid-community/core/package.json
+@@ -2,7 +2,7 @@
+   "name": "@ag-grid-community/core",
+   "version": "30.2.1",
+   "description": "Advanced Data Grid / Data Table supporting Javascript / Typescript / React / Angular / Vue",
+-  "main": "./dist/esm/es6/main.mjs",
++  "main": "./dist/cjs/es5/main.js",
+   "module": "./dist/esm/es6/main.mjs",
+   "types": "./dist/esm/es6/main.d.ts",
+   "scripts": {

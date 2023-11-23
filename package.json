@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "post-update": "yarn upgrade --latest",
+    "postinstall": "patch-package",
     "format": "prettier --write \"pages/**/*.{js,jsx,ts,tsx,css,scss}\""
   },
   "dependencies": {
@@ -86,6 +87,7 @@
   "description": "",
   "devDependencies": {
     "@types/node": "20.9.4",
+    "patch-package": "^8.0.0",
     "prettier": "^3.1.0",
     "typescript": "5.3.2"
   }
